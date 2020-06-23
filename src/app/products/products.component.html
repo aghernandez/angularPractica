@@ -1,0 +1,8 @@
+<p>Listado de Usuarios</p>
+<ul>
+    <li *ngFor= "let user of users">
+        <span>Usuario:{{user.name}}</span> &nbsp;
+        <span>Edad:{{user.age}} </span>
+        <span *ngIf = "user.city.length > 0">País:{{user.city}} </span>
+    </li>
+</ul>
