@@ -28,6 +28,14 @@ export class DataService {
       description: 'Paquete',
       price: 10,
     },
+
+    {
+      id:4,
+      name: 'Coca Cola',
+      category: 'Drink',
+      description: 'Lata',
+      price: 5,
+    },
   ];
   
   getAllProducts(){
