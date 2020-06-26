@@ -2,7 +2,7 @@
     <h1>Listado de Productos</h1>
     <hr/>
     <div class="card mt-3 p-3" *ngFor= "let product of products" >
-        <h2><a [routerLink]="['/product', product.id]" >{{product.name}}</a></h2>
+        <h2 class="card-title text-uppercase font-weight-bold"><a [routerLink]="['/product', product.id]" >{{product.name}}</a></h2>
         <div>Category:{{product.category}}</div>
         <div>Description:{{product.description}}</div>
         <div>Price:{{product.price}}</div>
