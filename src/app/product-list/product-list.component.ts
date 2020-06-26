@@ -9,10 +9,18 @@ export class ProductListComponent implements OnInit {
   public products = [
     {
       id:1,
-      name: 'egg',
+      name: 'Huevos',
       category: 'Food',
       description: 'Carton',
       price: 1,
+    },
+
+    {
+      id:2,
+      name: 'Jamon',
+      category: 'Food',
+      description: 'Paquete',
+      price: 5,
     },
   ];
 

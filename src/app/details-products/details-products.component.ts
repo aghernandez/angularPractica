@@ -7,6 +7,13 @@ import {ActivatedRoute} from '@angular/router';
   styleUrls: ['./details-products.component.scss']
 })
 export class DetailsProductsComponent implements OnInit {
+  public product ={
+    name: '',
+    category:'',
+    description:'',
+    price: '',
+
+  };
 
   constructor(private route:ActivatedRoute) { }
 
